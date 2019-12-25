@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh!important;
+  width: 100vw!important;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+  background-color: #434856;
+}
+
+nav {
+  height: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5vw;
+  background-color: #1E1F26;
+  color: white;
+
+  .brand {
+    font-family: 'Mansalva', cursive;
+    font-size: 1.8rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s linear, font-size 0.3s linear;
+  }
+
+  a:hover {
+    color: #ff2e63;
+    font-size: 1.55rem;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 92vh;
+
+  .code {
+    border-right: 1rem solid #434856;
+    border-top: 0.3rem solid #434856;
+
+    h3 {
+      background-color: #1A1B1F;
+      color: #dadce5;
+      padding: 0.5rem 2vw;
+    }
+
+    textarea {
+      resize: vertical;
+      border: none;
+      border-top: 0.1px solid #434856;
+      padding: 0.5rem;
+      background-color: #1D1E22;
+      color: white;
+    }
+  }
+
+  #output {
+    background: rgb(65,70,84);
+    background: radial-gradient(circle, rgba(65,70,84,1) 0%, rgba(46,50,59,1) 100%);
+    color: white;
+    h4{
+      padding-top: 45vh;
+      text-align: center;
+    }
+    iframe{
+      width:71vw;
+      height:92vh;
+      border:none;
+    }
+  }
+
+}
