@@ -70,9 +70,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
 
     h4 {
       padding: 0 1rem;
+      text-align: center;
     }
 
     iframe {
