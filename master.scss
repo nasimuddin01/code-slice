@@ -52,7 +52,6 @@ main {
     }
 
     textarea {
-      resize: vertical;
       background-color: #1D1E22;
       color: white;
       outline: none;
@@ -60,6 +59,7 @@ main {
       width: 25vw;
       height: 25.5vh;
       padding: 0.5rem;
+      resize: vertical;
     }
   }
 
@@ -78,8 +78,8 @@ main {
     }
 
     iframe {
-      width: 71vw;
-      height: 92vh;
+      width: 74vw;
+      height: 95vh;
       border: none;
     }
   }
@@ -99,7 +99,6 @@ main {
       border-bottom: 1rem solid #434856;
 
       textarea {
-        resize: horizontal;
         outline: none;
         border: none;
         border-right: 1.35vw solid #434856;
@@ -107,6 +106,7 @@ main {
         outline: none;
         width: 30.3vw;
         height: 25vh;
+        resize: horizontal;
       }
     }
 
